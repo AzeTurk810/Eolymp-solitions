@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string s;
+    bool b=1;
+    cin>>s;
+    for(int i=1;i<s.size();i++)
+    if(s[i]!=s[i-1])b=0;
+    string sr=s;
+    reverse(s.begin(),s.end());
+    if(b)
+    cout<<-1;
+    else if(sr!=s)
+    cout<<s.size();
+    else
+    cout<<s.size()-1;
+}
