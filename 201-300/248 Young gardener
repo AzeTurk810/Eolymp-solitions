@@ -1,0 +1,23 @@
+include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a,b,s,x,y;
+    cin>>x;
+    //cin>>y;
+    //cin>>c;
+    int c=x*(x+1);
+    //int t=x%10;
+    //long long v=a*a;
+  
+    
+    
+    
+    
+    
+    cout<<c+1;//<<t;
+
+    return 0;
+}
